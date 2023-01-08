@@ -1,0 +1,7 @@
+geopy
+lxml
+pandas
+python-Levenshtein
+pyyaml
+requests
+thefuzz
