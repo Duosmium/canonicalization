@@ -3,8 +3,8 @@ import pandas as pd
 import requests
 import sqlite3
 
-# schools_download = requests.get("http://localhost:8888/results/schools.csv")
-schools_download = requests.get("https://duosmium.org/results/schools.csv")
+schools_download = requests.get("http://localhost:8080/results/schools.csv")
+# schools_download = requests.get("https://duosmium.org/results/schools.csv")
 schools_download.encoding = "UTF-8"
 schools_csv = schools_download.text
 columns = ["School", "City", "State"]

@@ -11,6 +11,8 @@ python-Levenshtein = "*"
 pyyaml = "*"
 requests = "*"
 thefuzz = "*"
+numpy = "*"
+setuptools = "*"
 
 [dev-packages]
 
