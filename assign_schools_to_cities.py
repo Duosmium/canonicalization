@@ -9,8 +9,8 @@ if not data_file.endswith(".yaml"):
 
 print(f"Input: {data_file}")
 
-raw_download = requests.get(f"http://localhost:8080/data/{data_file}")
-# raw_download = requests.get(f"https://www.duosmium.org/data/{data_file}")
+# raw_download = requests.get(f"http://localhost:8080/data/{data_file}")
+raw_download = requests.get(f"https://www.duosmium.org/data/{data_file}")
 raw_download.encoding = "UTF-8"
 raw_data = raw_download.text
 sciolyff_yaml = yaml.safe_load(raw_data)
